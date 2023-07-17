@@ -1,0 +1,106 @@
+@mixin margin($value...) {
+	margin: $value;
+}
+
+@mixin marginTop($value) {
+	margin-top: $value;
+}
+
+@mixin marginBottom($value) {
+	margin-bottom: $value;
+}
+
+@mixin marginLeft($value) {
+	margin-left: $value;
+}
+
+@mixin marginRight($value) {
+	margin-right: $value;
+}
+
+@mixin padding($value...) {
+	padding: $value;
+}
+
+@mixin paddingTop($value) {
+	padding-top: $value;
+}
+
+@mixin paddingBottom($value) {
+	padding-bottom: $value;
+}
+
+@mixin paddingLeft($value) {
+	padding-left: $value;
+}
+
+@mixin paddingRight($value) {
+	padding-right: $value;
+}
+
+@mixin transition($property, $duration, $timingFun: '') {
+	@if $timingFun== '' {
+		-webkit-transition: $property $duration;
+		transition: $property $duration;
+	} @else {
+		-webkit-transition: $property $duration $timingFun;
+		transition: $property $duration $timingFun;
+	}
+}
+
+@mixin getShadesColorClasses($colors, $property, $isImportant: '') {
+	@each $key, $value in $colors {
+		&-#{$key} {
+			@if $isImportant == 'important' {
+				#{$property}: $value !important;
+			} @else {
+				#{$property}: $value;
+			}
+		}
+	}
+}
+
+@mixin customPairButton($transparent, $width) {
+	width: $width;
+	height: 48px;
+	font-family: $font-outfit;
+	font-size: $font-size-browser-default;
+	font-weight: $font-semi-bold;
+	line-height: 20px;
+	border-radius: 5px;
+	border: 2px solid $dark-turquoise;
+	transition: 0.3s ease-in-out;
+	padding: 0;
+	text-transform: uppercase;
+	outline: none;
+
+	@if ($transparent) {
+		background-color: transparent;
+		color: $white;
+		margin-right: 11px;
+		&:hover {
+			background-color: transparent;
+			border: 2px solid $dark-turquoise;
+		}
+	} @else {
+		background: $dark-turquoise;
+		color: $white;
+		&:hover {
+			background: $dark-turquoise;
+			border: 2px solid $dark-turquoise;
+		}
+	}
+}
+
+@mixin customButton($width) {
+	width: $width;
+	height: 48px;
+	font-family: $font-outfit;
+	font-weight: $font-semi-bold;
+	font-size: $font-size-browser-default;
+	line-height: 20px;
+	border-radius: 5px;
+	text-transform: uppercase;
+	background: $dark-turquoise;
+	color: #fdfdfd;
+}

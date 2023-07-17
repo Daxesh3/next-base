@@ -1,0 +1,47 @@
+.header-wrapper {
+	padding: 33px 50px 18px;
+
+	.logo-wrapper {
+		.img-wrapper {
+			.login-logo {
+				width: 205px;
+				height: 22px;
+			}
+		}
+	}
+
+	.navbar-list {
+		padding-left: 60px;
+
+		.header-link-wrapper {
+			.link {
+				margin-right: 32px;
+				&:last-child {
+					margin-right: 0 !important;
+				}
+			}
+		}
+	}
+
+	.connect-wrapper {
+		.coin-amount {
+			letter-spacing: 0.2px;
+			color: #fefefe;
+		}
+	}
+}
+.connect-btn {
+	padding: 6px 32px 7px;
+	border-radius: 5px;
+	color: $pure-black;
+	background: $dark-turquoise;
+}
+.connect-btn-wrapper {
+	margin: 40px 22px 0px 0px;
+	.mobile-connect-btn {
+		padding: 5px 13px;
+		border-radius: 5px;
+		color: $pure-black;
+		background: $dark-turquoise;
+	}
+}

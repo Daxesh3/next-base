@@ -1,0 +1,5 @@
+.btn-wrapper {
+	.button {
+		@include customButton(330px);
+	}
+}

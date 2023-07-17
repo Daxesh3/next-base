@@ -1,0 +1,216 @@
+//login wrapper
+.login-wrapper {
+	padding-top: 54px;
+
+	.logo-wrapper {
+		margin-bottom: 26px;
+	}
+
+	.login-form {
+		max-width: 330px;
+		margin: 0 auto;
+
+		.login--title {
+			margin-bottom: 18px;
+		}
+
+		.input-wrapper {
+			.input-field {
+				width: 330px;
+				height: 60px;
+				border: 1px solid $white;
+				padding-left: 25px;
+
+				&::placeholder {
+					font-weight: $font-medium;
+					font-size: $font-size-browser-default;
+					line-height: 20px;
+					color: $white;
+				}
+			}
+			.error-message {
+				color: $dusty-rose;
+				margin-top: 5px;
+			}
+			.forgot-link {
+				max-width: fit-content;
+			}
+			.red-border {
+				border: 1px solid $dusty-rose;
+			}
+		}
+
+		.login-btn {
+			margin-top: 32px;
+		}
+	}
+}
+
+//Sign up wrapper
+.sign-up-wrapper {
+	padding-top: 100px;
+
+	.sign-up-form {
+		max-width: 330px;
+		margin: 0 auto;
+
+		.login--title {
+			margin-bottom: 20px;
+		}
+
+		.input-wrapper {
+			.input-field {
+				width: 330px;
+				height: 48px;
+				border: 1px solid rgba($white, 0.4);
+				background: rgba($white, 0.08);
+				padding-left: 12px;
+
+				&::placeholder {
+					color: rgba($white, 0.7);
+					font-size: $font-size-browser-default;
+				}
+			}
+			.error-message {
+				color: $dusty-rose;
+				margin-top: 8px;
+			}
+			.red-border {
+				border: 1px solid $dusty-rose;
+			}
+		}
+		.password-icon {
+			top: 15px;
+			right: 8px;
+
+			.show-password {
+				height: 18px;
+				width: 23px;
+				opacity: 0.5;
+			}
+		}
+
+		.sign-up-btn {
+			margin-top: 8px;
+		}
+		.skip-btn {
+			background: #434343;
+			margin-top: 20px;
+		}
+	}
+}
+
+//Social Wrapper
+.social-media-wrapper {
+	.before-line {
+		width: 132px;
+		height: 3px;
+		background: linear-gradient(269.97deg, #2fb9c6 4.18%, rgba(196, 196, 196, 0) 77.28%);
+	}
+
+	.after-line {
+		transform: rotate(-180deg);
+	}
+
+	.social-media-title {
+		margin: 0 15px;
+	}
+
+	.social-icon-wrapper {
+		gap: 18px;
+		.icon-bg {
+			width: 52px;
+			height: 52px;
+			background: $white;
+		}
+	}
+	.account-info {
+		color: rgba($white, 0.8);
+	}
+	.signUp-title {
+		color: $blue-zodiac;
+	}
+}
+
+//forgot-password-wrapper
+.forgot-password-wrapper {
+	width: 330px;
+	padding-top: 100px;
+
+	.forgot-title {
+		margin-bottom: 33px;
+	}
+	.input-wrapper {
+		margin-top: 32px;
+		.input-field {
+			width: 330px;
+			height: 34px;
+			border-bottom: 1px solid $white;
+			background: transparent;
+		}
+		.error-message {
+			color: $dusty-rose;
+			margin-top: 8px;
+		}
+		.red-border {
+			border: 1px solid $dusty-rose;
+		}
+		.btn-wrapper {
+			margin-top: 300px;
+		}
+	}
+}
+
+.arrow-wrapper {
+	top: 18%;
+	left: 18%;
+}
+
+//reset-password-wrapper
+.reset-password-wrapper {
+	width: 330px;
+	padding-top: 100px;
+	.reset-title {
+		margin-bottom: 33px;
+	}
+	.input-wrapper {
+		margin-top: 32px;
+		.input-field {
+			width: 330px;
+			height: 34px;
+			border-bottom: 1px solid $white;
+			background: transparent;
+		}
+		.error-message {
+			color: $dusty-rose;
+			margin-top: 8px;
+		}
+		.red-border {
+			border: 1px solid $dusty-rose;
+		}
+		.password-icon {
+			top: 25px;
+			right: 0px;
+
+			.show-password {
+				height: 18px;
+				width: 23px;
+				opacity: 0.5;
+			}
+		}
+		.btn-wrapper {
+			margin-top: 300px;
+		}
+	}
+}
+
+//password-changed-wrapper
+.password-changed-wrapper {
+	padding-top: 150px;
+	.pass-alert-icon {
+		margin-bottom: 75px;
+	}
+	.btn-wrapper {
+		margin-top: 250px;
+	}
+}

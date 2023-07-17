@@ -1,0 +1,150 @@
+//Font family
+$font-poppins: 'Poppins';
+$font-bakabakone: 'BakbakOne';
+$font-outfit: 'Outfit';
+$font-montserrat: 'Montserrat';
+$font-baloo-bhai: 'Baloo Bhai';
+
+//Font Weight Variables
+$font-light: 300;
+$font-regular: 400;
+$font-medium: 500;
+$font-semi-bold: 600;
+$font-bold: 700;
+$font-extra-bold: 800;
+$font-heavy: 900;
+$font-extra-heavy: 1000;
+
+//Font size variables
+$font-size-xxs: 0.75rem; // 12px
+$font-size-xs: 0.8125rem; // 13px
+$font-size-sm: 0.875rem; // 14px
+$font-size-default: 0.9375rem; // 15px
+$font-size-browser-default: 1rem; // 1rem = 16px
+$font-size-md: 1.0625rem; // 17px
+$font-size-lg: 1.125rem; // 18px
+$font-size-xl: 1.1875rem; // 19px
+$font-size-xxl: 1.25rem; // 20px
+
+//Width and height variables
+$full-width: 100%;
+$full-height: 100%;
+$full-viewport-width: 100vw;
+$full-viewport-height: 100vh;
+
+//Color Palette variables
+$primary: #6a5be2;
+
+$white: #fff;
+$revell: #eee;
+$pure-black: #000000;
+$primary-black: #050321; //for text
+$black: #18191a;
+$green: #1ca051;
+$comet: #676768;
+$violet: #4c9b92;
+$light-pink: #bf6196;
+$golden-yellow: #ffc043;
+$nero: #181818;
+$turquoise: #42e8e0;
+$dark-turquoise: #14cfdb;
+$blue-zodiac: #012b44;
+$dusty-rose: #c17277;
+$yellow: #ffed79;
+
+$grey: (
+	50: #bdbdbd,
+	100: #97979b,
+	150: #828282,
+	200: #4e4e4e,
+	300: #464748,
+	400: #262728,
+	500: #252526,
+	600: #262626,
+	700: #515151,
+	800: #606061,
+	900: #747474
+);
+
+$red: (
+	100: #eb5757,
+	150: #ff6781,
+	200: #ce3b4d,
+	300: #f23131,
+	400: #e33737,
+	500: #ff0000,
+	600: #d13838
+);
+
+$success: (
+	50: #ecfdf5,
+	100: #d1fae5,
+	200: #a7f3d0,
+	300: #6ee7b7,
+	400: #5ad8b9,
+	500: #34d399,
+	600: #1f9471,
+	700: #059669,
+	800: #047857,
+	900: #065f46,
+	950: #064e3b,
+	1000: #004152
+);
+
+$purple: (
+	50: #ac4e83,
+	100: #e146a3,
+	200: #9747ff
+);
+
+$blue: (
+	100: #29a3ef,
+	200: #3478fb,
+	300: #3076b1
+);
+
+$orange--gradient: linear-gradient(270deg, #ed6a29 0%, rgba(41, 41, 41, 0) 100%);
+$blue--gradient: linear-gradient(270deg, #29a3ef 0%, rgba(41, 41, 41, 0) 100%);
+$violet--gradient: linear-gradient(270deg, #00acac 0%, rgba(41, 41, 41, 0) 100%);
+$green--gradient: linear-gradient(270deg, #219653 0%, rgba(41, 41, 41, 0) 100%);
+$purple--gradient: linear-gradient(270deg, #9b51e0 0%, rgba(41, 41, 41, 0) 100%);
+$purple-gradient--dark: linear-gradient(180deg, #6a5be2 0%, #4e42aa 100%);
+$purple-gradient--light: linear-gradient(180deg, #9088e6 0%, #6a5be2 100%);
+$orange--gradient: linear-gradient(180deg, #ffb37f 0%, #ff9b56 100%);
+$yellow--gradient: linear-gradient(270deg, #fdad15 0%, rgba(41, 41, 41, 0) 100%);
+$black--gradient: linear-gradient(180deg, #252526 0%, #0d0d0d 100%);
+$grey--gradient: linear-gradient(180deg, #0d0d0d 0%, #252526 100%);
+
+$energy-green-gradient: radial-gradient(
+		306.98% 152.34% at 77.07% -1.48%,
+		#022d4d 0%,
+		#0a496a 20.31%,
+		#146785 40.1%,
+		#1f8ca1 56.25%,
+		#2fb1be 72.4%,
+		#43d9d8 86.98%,
+		#58f6e7 100%
+	)
+	#ffffff;
+
+//Line Height variables
+$line-height-sm: 1;
+$line-height-default: 1.2;
+$line-height-md: 1.5;
+$line-height-lg: 2;
+
+//Border radius width variables
+$border-radius-xxs: 2px;
+$border-radius-xs: 3px;
+$border-radius-sm: 4px;
+$border-radius-default: 6px;
+$border-radius-md: 8px;
+$border-radius-lg: 10px;
+$border-radius-xl: 16px;
+$border-radius-xxl: 20px;
+$border-radius-circle: 50%;
+
+//latter Spacing variables
+$letter-spacing-base: 0.5px !default;
+$letter-spacing-lg: 2px !default;
+$letter-spacing-xl: 4px !default;

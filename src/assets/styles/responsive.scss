@@ -1,0 +1,601 @@
+//height
+
+@media screen and (max-height: 800px) {
+	.sign-up-wrapper {
+		padding-top: 80px;
+
+		.sign-up-form {
+			.input-wrapper {
+				.error-message {
+					margin-top: 5px;
+				}
+
+				.touched-error {
+					margin-bottom: 10px;
+				}
+			}
+
+			.skip-btn {
+				margin-top: 15px;
+			}
+		}
+
+		.social-media-wrapper {
+			margin-top: 0px;
+
+			.social-icon-wrapper,
+			.link-wrapper,
+			.line-wrapper {
+				margin-top: 20px;
+			}
+		}
+	}
+
+	.login-wrapper {
+		.logo-wrapper {
+			margin-bottom: 0px;
+		}
+
+		.login-form {
+			.input-wrapper {
+				.input-field {
+					height: 50px;
+				}
+			}
+
+			.login--title {
+				margin-bottom: 12px;
+			}
+
+			.login-btn,
+			.error-login-btn {
+				margin-top: 15px;
+			}
+		}
+
+		.social-media-wrapper {
+			margin-top: 0px;
+
+			.line-wrapper,
+			.social-icon-wrapper,
+			.link-wrapper {
+				margin-top: 20px;
+			}
+		}
+	}
+
+	.forgot-password-wrapper {
+		.forgot-title {
+			margin-bottom: 20px;
+		}
+
+		.input-wrapper {
+			.btn-wrapper {
+				margin-top: 360px;
+			}
+		}
+	}
+
+	.reset-password-wrapper {
+		padding-top: 80px;
+
+		.reset-title {
+			margin-bottom: 20px;
+		}
+
+		.input-wrapper {
+			margin-top: 20px;
+
+			.button-wrapper {
+				.continue-btn {
+					margin-top: 220px;
+				}
+			}
+		}
+	}
+
+	.password-changed-wrapper {
+		.btn-wrapper {
+			margin-top: 170px;
+		}
+	}
+}
+
+@media screen and (max-height: 700px) {
+	.sign-up-wrapper {
+		.sign-up-form {
+			.login--title {
+				margin-bottom: 8px;
+			}
+
+			.input-wrapper {
+				.form-wrapper {
+					margin-bottom: 20px;
+				}
+
+				.input-field {
+					height: 45px;
+				}
+			}
+
+			.sign-up-btn {
+				margin-top: 0px;
+				height: 45px;
+			}
+
+			.skip-btn {
+				height: 45px;
+			}
+		}
+
+		.social-media-wrapper {
+			.social-icon-wrapper,
+			.line-wrapper,
+			.link-wrapper {
+				margin-top: 10px;
+			}
+		}
+	}
+
+	.social-media-wrapper {
+		.social-icon-wrapper {
+			.icon-bg {
+				height: 40px;
+				width: 40px;
+
+				svg {
+					height: 22px;
+					width: 22px;
+				}
+			}
+		}
+	}
+
+	.login-wrapper {
+		.login-form {
+			.input-wrapper {
+				.error-message {
+					margin-top: 0px;
+				}
+
+				.btn-wrapper {
+					.button {
+						height: 45px;
+					}
+				}
+			}
+
+			.error-login-btn {
+				margin-top: 8px;
+			}
+		}
+
+		.social-media-wrapper {
+			.social-icon-wrapper,
+			.line-wrapper,
+			.link-wrapper {
+				margin-top: 10px;
+			}
+		}
+	}
+
+	.forgot-password-wrapper {
+		.input-wrapper {
+			margin-top: 22px;
+
+			.btn-wrapper {
+				margin-top: 275px;
+			}
+		}
+	}
+
+	.reset-password-wrapper {
+		.input-wrapper {
+			.button-wrapper {
+				.continue-btn {
+					margin-top: 180px;
+				}
+			}
+		}
+	}
+
+	.password-changed-wrapper {
+		padding-top: 60px;
+	}
+}
+
+//width
+@media screen and (max-width: 1440px) {
+	.header-wrapper {
+		padding: 33px 40px 18px;
+
+		.navbar-list {
+			padding-left: 40px;
+
+			.header-link-wrapper {
+				.link {
+					margin-right: 25px;
+				}
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1250px) {
+	.header-wrapper {
+		padding: 25px;
+
+		.navbar-list {
+			padding-left: 25px;
+
+			.header-link-wrapper {
+				.link {
+					font-size: $font-size-browser-default;
+					line-height: 18px;
+					margin-right: 15px;
+				}
+			}
+		}
+
+		.connect-wrapper {
+			.coin-icon,
+			.flame-icon,
+			.notification-icon,
+			.search-icon {
+				height: 20px;
+				width: 20px;
+			}
+
+			.coin-amount {
+				font-size: $font-size-sm;
+			}
+
+			.icon-wrapper {
+				margin-left: 15px;
+
+				.search-icon {
+					margin-right: 15px;
+				}
+			}
+
+			.connect-btn {
+				font-size: $font-size-browser-default;
+				line-height: 20px;
+			}
+		}
+	}
+
+	.notification-modal {
+		.modal-dialog {
+			right: 28px;
+		}
+
+		.content-wrapper {
+			padding: 20px 20px 0px;
+		}
+	}
+
+	.search-modal {
+		.modal-dialog {
+			right: 60px;
+		}
+	}
+
+	.wallet-modal {
+		.modal-dialog {
+			right: 115px;
+		}
+	}
+}
+
+@media screen and (max-width: 1130px) {
+	.header-wrapper {
+		padding: 25px 20px;
+
+		.logo-wrapper {
+			.img-wrapper {
+				.login-logo {
+					width: 195px;
+				}
+			}
+		}
+
+		.navbar-list {
+			padding-left: 20px;
+
+			.header-link-wrapper {
+				.link {
+					margin-right: 15px;
+				}
+			}
+		}
+
+		.connect-wrapper {
+			.coin-wrapper {
+				margin-right: 15px;
+			}
+
+			.connect-btn {
+				padding: 6px 20px 7px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.header-wrapper {
+		padding: 25px 15px;
+
+		.navbar-list {
+			padding-left: 15px;
+		}
+
+		.connect-wrapper {
+			.coin-wrapper {
+				margin-right: 12px;
+			}
+
+			.connect-btn {
+				padding: 6px 15px 7px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.header-wrapper {
+		.logo-wrapper {
+			.img-wrapper {
+				.login-logo {
+					width: 137px;
+					height: 14px;
+				}
+			}
+		}
+
+		.connect-wrapper {
+			.coin-icon,
+			.flame-icon,
+			.notification-icon,
+			.search-icon {
+				height: 15px;
+				width: 15px;
+			}
+
+			.connect-btn {
+				padding: 4px 10px;
+				font-size: $font-size-xs;
+				line-height: 17px;
+			}
+
+			.icon-wrapper {
+				margin-left: 10px;
+
+				.search-icon {
+					margin-right: 10px;
+				}
+			}
+		}
+
+		.navbar-list {
+			.header-link-wrapper {
+				.link {
+					margin-right: 15px;
+					font-size: $font-size-sm;
+					line-height: 18px;
+				}
+			}
+		}
+	}
+
+	.modal-dialog {
+		top: 75px;
+	}
+
+	.notification-modal {
+		.modal-dialog {
+			right: 38px;
+			max-width: 320px;
+		}
+
+		.content-wrapper {
+			.circle {
+				width: 55px;
+				height: 55px;
+			}
+		}
+	}
+
+	.search-modal {
+		.modal-dialog {
+			max-width: 320px;
+		}
+	}
+
+	.wallet-modal {
+		.modal-dialog {
+			right: 95px;
+			max-width: 320px;
+		}
+
+		.wallet-wrapper {
+			padding: 22px;
+
+			.wallet-title {
+				margin-bottom: 20px;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 850px) {
+	.header-wrapper {
+		.navbar-list {
+			.header-link-wrapper {
+				.link {
+					font-size: $font-size-xs;
+					margin-right: 10px;
+				}
+			}
+		}
+
+		.connect-wrapper {
+			.coin-wrapper {
+				.coin-icon,
+				.flame-icon {
+					width: 16px;
+					height: 16px;
+					margin-right: 5px;
+				}
+			}
+
+			.coin-amount {
+				font-size: $font-size-xs;
+			}
+
+			.icon-wrapper {
+				.notification-icon {
+					margin-right: 0px;
+				}
+			}
+		}
+	}
+
+	.wallet-modal {
+		.modal-dialog {
+			right: 80px;
+		}
+	}
+
+	.notification-modal {
+		.modal-dialog {
+			right: 22px;
+		}
+	}
+
+	.search-modal {
+		.modal-dialog {
+			right: 44px;
+		}
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.show--md {
+		display: none !important;
+	}
+
+	.hide--md {
+		display: block !important;
+	}
+
+	.pwa-sm-container {
+		height: calc(100vh - 115px);
+	}
+
+	.launch-wrapper {
+		padding-top: 0px;
+	}
+
+	.sign-up-wrapper,
+	.login-wrapper {
+		justify-content: flex-start;
+		padding-top: 0px;
+	}
+
+	.sign-up-wrapper {
+		.sign-up-form {
+			.sign-up-btn {
+				margin-top: 15px;
+			}
+
+			.input-wrapper {
+				.error-message {
+					margin-top: 5px;
+				}
+			}
+		}
+	}
+
+	.forgot-password-wrapper {
+		.input-wrapper {
+			.btn-wrapper {
+				margin-top: 490px;
+			}
+		}
+	}
+
+	.reset-password-wrapper {
+		.input-wrapper {
+			.button-wrapper {
+				.continue-btn {
+					margin-top: 350px;
+				}
+			}
+		}
+	}
+
+	.password-changed-wrapper {
+		padding-top: 220px;
+
+		.btn-wrapper {
+			margin-top: 275px;
+		}
+	}
+
+	.dashboard-wrapper {
+		padding: 50px 0;
+	}
+}
+
+@media screen and (max-width: 600px) {
+}
+
+@media screen and (max-width: 500px) {
+}
+
+@media screen and (max-width: 425px) {
+	.social-media-wrapper {
+		.social-media-title {
+			margin: 0 10px;
+		}
+
+		.before-line {
+			width: 110px;
+		}
+	}
+}
+
+@media (min-height: 640px) and (max-height: 740px) and (min-width: 360px) and (max-width: 768px) {
+	.forgot-password-wrapper {
+		.input-wrapper {
+			.btn-wrapper {
+				margin-top: 320px;
+			}
+		}
+	}
+
+	.reset-password-wrapper {
+		.input-wrapper {
+			.button-wrapper {
+				.continue-btn {
+					margin-top: 220px;
+				}
+			}
+		}
+	}
+
+	.password-changed-wrapper {
+		padding-top: 130px;
+
+		.btn-wrapper {
+			margin-top: 170px;
+		}
+	}
+}
+
+@media screen and (max-height: 640px) {
+	.pwa-sm-container {
+		height: 100%;
+	}
+}
